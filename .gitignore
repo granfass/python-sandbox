@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# input and output files
+*.kml
+*.shp
+*.shx
+*.dbf
