@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>komae_bus.kml</name>
+	<open>1</open>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff5500</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff5500</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<Placemark>
+		<name>1</name>
+		<description>狛江駅北口
+狛江市役所前</description>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				139.5773785398502,35.63317469234866,0 139.5783391581343,35.63395289893936,0 139.5783635194075,35.63400605957735,0 139.5783321741141,35.63405988674834,0 139.5776841575259,35.63465135018721,0 139.5774364874443,35.63492834646678,0 139.5774139632508,35.63499209112979,0 139.5774338311926,35.63504912560424,0 139.5777098484268,35.63528844048717,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>2</name>
+		<description>狛江市役所前
+岩戸北一丁目</description>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				139.5777133245981,35.63528935576525,0 139.579078476515,35.63654398454546,0 139.5802418565815,35.63762107435601,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>3</name>
+		<description>岩戸北一丁目
+狛江第一中学校</description>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				139.58024307049,35.63762317570916,0 139.5807515004977,35.63809364654325,0 139.5807663936312,35.63814460734707,0 139.580759597432,35.63817929820259,0 139.580727767478,35.63821568208024,0 139.5806357858098,35.6382599052208,0 139.5798027526592,35.63867920212029,0 139.5793171530053,35.63897005466359,0 139.5788240188543,35.63928296265868,0 139.5781227581237,35.63973540398856,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>4</name>
+		<description>狛江第一中学校
+狛江市民総合体育館</description>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				139.5781195909356,35.63973576221294,0 139.5766540108046,35.64070236754216,0 139.5760006864893,35.64111085295761,0 139.5754501390074,35.64144304086471,0 139.5745146371643,35.64194512422262,0 139.5732956913352,35.64259494678731,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>5</name>
+		<description>狛江市民総合体育館
+前原公園</description>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				139.5733031076705,35.64259138132665,0 139.572895352776,35.6428098773164,0 139.5717932557336,35.64342765451578,0 139.5704142053473,35.64417833879168,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>6</name>
+		<description>前原公園
+狛江営業所</description>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				139.5704142056294,35.64417833912885,0 139.569962577079,35.64441655000945,0 139.5690006759106,35.64493705951875,0 139.5682607871902,35.64533377559357,0 139.5680036282173,35.64547513188861,0 139.5679513482157,35.64549427665708,0 139.5678997921692,35.64548964202152,0 139.5678387978751,35.64547411741676,0 139.5678164573948,35.64544196658424,0 139.5673560254087,35.64463947241705,0 139.5670872747018,35.6441444524521,0 139.566700200826,35.64353475763611,0 139.5666870681915,35.64350886279269,0 139.5666888198062,35.64348374305315,0 139.5666980854618,35.64346423599402,0 139.5667328343511,35.64343622143919,0 139.5669934814131,35.64325799923289,0 139.5671288986811,35.64317383580505,0 139.5671912718456,35.64313446344978,0 139.5672090880571,35.64310984180645,0 139.5672074816366,35.64307585176235,0 139.5671978573457,35.64304160431615,0 139.5671455660639,35.64292386388625,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+</Document>
+</kml>
