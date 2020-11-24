@@ -16,6 +16,9 @@ def main():
         print(f"{i+1}番目の区間")
         print(placemark.find('kml:description', name_space).text)
 
+        print(f"{i+1}番目のpoliline")
+        print(placemark.find('kml:LineString/kml:coordinates', name_space).text)
+
 
 if __name__ == "__main__":
     main()
