@@ -18,8 +18,8 @@ def main():
     placemarks = root.findall(f"./{{{NAME_SPACE['kml']}}}Document/{{{NAME_SPACE['kml']}}}Placemark")
     for i, placemark in enumerate(placemarks):
         start_busstop, end_busstop = get_description(placemark)
-        print(f"{i+1}番目の区間")
-        print(placemark.find('kml:description', NAME_SPACE).text)
+        print(f'{i + 1}番目の発バス停：{start_busstop}')
+        print(f'{i + 1}番目の着バス停：{end_busstop}')
 
         print(f"{i+1}番目のpoliline")
         print(placemark.find('kml:LineString/kml:coordinates', NAME_SPACE).text)
