@@ -11,6 +11,11 @@ def get_description(element: etree.Element) -> (str, str):
     return busstops[0], busstops[1]
 
 
+def get_polyline(element: etree.Element) -> str:
+    content: str = element.find('kml:LineString/kml:coordinates', NAME_SPACE).text
+    return content.strip()
+
+
 def main():
     tree = etree.parse('kml/komae_bus.kml')
     root = tree.getroot()
@@ -21,8 +26,8 @@ def main():
         print(f'{i + 1}番目の発バス停：{start_busstop}')
         print(f'{i + 1}番目の着バス停：{end_busstop}')
 
-        print(f"{i+1}番目のpoliline")
-        print(placemark.find('kml:LineString/kml:coordinates', NAME_SPACE).text)
+        print(f"{i + 1}番目のpolyline： {get_polyline(placemark)}")
+        print('----------')
 
 
 if __name__ == "__main__":
